@@ -77,7 +77,9 @@ const App = () => {
           <ChatContainer>
             <MessageList
               typingIndicator={
-                isTyping && <TypingIndicator content='Gemini is typing...' />
+                isTyping ? (
+                  <TypingIndicator content='Gemini is typing...' />
+                ) : null
               }>
               {messages.map((message: ChatMessage, index: number) => (
                 <Message
