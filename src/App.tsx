@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/layout/Navbar'
 import Chat from './components/Chat'
 
-function App() {
+export default function App() {
   return (
     <>
       <Router>
@@ -15,5 +15,3 @@ function App() {
     </>
   )
 }
-
-export default App
