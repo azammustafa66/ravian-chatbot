@@ -10,7 +10,7 @@ This is a React chatbot application that utilizes the chat-ui-kit library and in
 
 # Screenshots
 
-![Screenshot](</src/assets/Screenshot%20(52).png>)
+![Screenshot](</src/assets/Screenshot%20(53).png>)
 
 ## Installation
 

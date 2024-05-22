@@ -22,6 +22,7 @@ export default function MessageList() {
         sender: 'Gemini'
       }
       setMessages(defaultMessage)
+      localStorage.setItem('messages', JSON.stringify([defaultMessage]))
     }
   }, [])
 
